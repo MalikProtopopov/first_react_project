@@ -9,7 +9,7 @@ const Profile = () => {
         </div>
         <div className={classes.description}>
             <img className={classes.avatar} src='https://i.pinimg.com/originals/30/96/85/309685f2f0200b7431c20f1cb711360e.jpg'></img>
-            <div>
+            <div> 
                 <p>Протопопов Малик</p>
                 <p>11.04.2000</p>
             </div>
