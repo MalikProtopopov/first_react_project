@@ -1,0 +1,28 @@
+.avatar {
+    width: 130px;
+    border-radius: 50%;
+    border: 5px #F0DD37 solid;
+}
+.content {
+    grid-area:c;
+}
+.contentImage {
+    width: 100%;
+    height: 200px;
+}
+.description {
+    display: flex;
+    padding-top: 20px;
+}
+.description div {
+    color: #AAFAB7;
+    font-family: Montserrat, sans-serif;
+    margin-left: 30px;
+}
+
+.description div p:first-child {
+    margin: 0;
+    font-weight: bold;
+}
+
+
