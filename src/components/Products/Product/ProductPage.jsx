@@ -18,7 +18,6 @@ console.log(useLocation())
                 posts.map(post => (
                     <Link key={post.id} to={`/products/${post.id}`}>
                         <li>{post.title}</li>
-
                     </Link>
                 ))
             }

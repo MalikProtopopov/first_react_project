@@ -1,8 +1,4 @@
-.avatar {
-    width: 130px;
-    border-radius: 50%;
-    border: 5px #F0DD37 solid;
-}
+
 .content {
     grid-area:c;
 }

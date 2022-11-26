@@ -1,3 +1,15 @@
 .content {
     grid-area:c;
+    color: white;
+    display: flex;
+
+}
+.dialogs {
+}
+.dialogItem {
+
+}
+.messages {
+}
+.dialog {
 }

@@ -4,14 +4,18 @@
     border-radius: 0 10px 10px 0;
     padding: 25px;
     line-height: 30px;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: auto;
     margin-right: auto;
 }
 
+.item a {
+    text-decoration: none;
+}
 
 .item {
     color: #AAFAB7;
     font-family: Montserrat, serif;
     font-weight: 500;
+    padding-bottom: 15px;
 }
