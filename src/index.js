@@ -30,16 +30,13 @@ let messagesData = [
     {id: 2, messages: 'like and subscribe posts which I made for, it motivates me work better and more '}
 ]
 
-let dialogsElement = digitalData.map( dialog => <DialogItem name={dialog.name} id={dialog.id}/> )
-let messagesElement = messagesData.map( message => <Message message={message.messages}/>)
-let postsElements = posts.map( p => <Post id={p.id} message={p.message} likes={p.likes}/>)
 
 
 
 root.render(
     <React.StrictMode>
         <BrowserRouter>
-            <App dialogs={dialogsElement} messages={messagesElement} posts={postsElements}/>
+            <App dialogs={digitalData} messages={messagesData} posts={posts}/>
         </BrowserRouter>
 
     </React.StrictMode>

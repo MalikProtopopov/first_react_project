@@ -1,5 +1,6 @@
 import React from "react";
 import s from './MyPosts.module.css';
+import Post from "./Post/Post";
 
 
 const MyPosts = (props) => {
@@ -19,7 +20,7 @@ const MyPosts = (props) => {
         <div className={s.headPostsProfile}>
             New posts
         </div>
-        {props.postsElements}
+        {props.postsElements.map( p => <Post id={p.id} message={p.message} likes={p.likes}/>)}
 
     </div>
 }
